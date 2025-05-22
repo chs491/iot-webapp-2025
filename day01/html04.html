@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML태그학습</title>
+</head>
+<body>
+    <h1>헤딩1</h1>
+    <hr>
+    <h2><a href="#lorem">헤딩2</a></h2>
+    <hr>
+    <h3>헤딩3</h3>
+    <h4>헤딩4</h4>
+    <h5>헤딩5</h5>
+    <h6>헤딩6 : 글자 크기가 너무 작음</h6>
+    <p>문장영역입니다.
+        두번째 문장입니다. <br> HTML에서는 엔터가 표현되지 않습니다.<br>
+        스페이스도 하나이상 표현이 안됩니다. <br>
+        그래서 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;특수문자를 사용합니다.
+        특수문자에는 &와 ; 사이에 문자로 표현합니다.
+        &lt;b&gt; 와 같은 특수문자가 수천개 존재합니다.<br>
+        a태그 target은 _blank(새탭), _self(현재페이지변경), _parent(부모창[탭]이 변경)
+        Oracle&trade; <a href="https://www.microsoft.com/" target="_blank">Microsoft &copy; Ltd.</a>
+    </p>
+    <p>문장영역2입니다.</p>
+    <div>첫번째 영역 : CSS로 화면 디자인할때 영역을 구분할때 사용</div>
+    <div>두번째 영역 : 화면 디자인시 무지막지하게 많이 사용</div>
+    <p>세번째 문장영역입니다. 샘플텍스트를 만들어주는 기능이 존재합니다. <br>
+        lorem숫자를 입력하고 탭을 누릅니다.</p>
+    <p id="lorem"><b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> <u>sit</u> <ins>amet</ins> <small>adipisicing</small>  E=mc<sup>2</sup>elit. <br>
+        log<sub>2</sub>(10) 
+        <del>Omnis tempore</del>, tempora fuga quia debitis assumenda sequi! Soluta sequi exercitationem similique praesentium excepturi quaerat itaque omnis placeat officiis, officia eum ratione repellat veniam quia ducimus nihil? Architecto placeat sed quod libero nostrum ad neque vero aperiam suscipit, atque porro distinctio ab tempore a? Nostrum minima hic praesentium provident quis perspiciatis culpa deserunt numquam tempora odio deleniti maxime quam, ut blanditiis iste sapiente quae itaque officiis esse. Accusantium numquam atque iure illum nesciunt, exercitationem impedit, nihil similique harum nemo, culpa dignissimos ducimus ipsam perferendis. Iusto facilis, repellendus voluptatum error ipsa corporis obcaecati dolores quas excepturi quasi maiores ab, pariatur neque! Expedita, quaerat eum commodi voluptatem illum facilis cupiditate quam. Commodi ipsum eveniet fugit asperiores voluptatibus possimus facilis necessitatibus mollitia perspiciatis id deleniti, expedita magni distinctio odit modi nostrum saepe consequuntur. Consequatur sit ad, dignissimos ducimus maiores quisquam repellat incidunt tempora error repellendus et culpa voluptate quos nisi doloremque iste alias est expedita quod. Facere provident aut laborum, non iste accusantium magnam libero saepe numquam error doloremque minus dolore dolorum, architecto at modi hic fugiat eligendi ea beatae cumque aperiam dicta? Mollitia cum fuga ab amet ducimus tenetur harum itaque pariatur porro cupiditate.</p>
+    <h3>네비게이션 메뉴</h3>    
+    <p>메뉴는 대부분 ul(unordered list)로 생성합니다. ordered list도 존재</p>
+    <ul>
+        <li><a href="https://mail.naver.com" target="_blank"></a>메일</li>
+        <li>카페</li>
+        <li>블로그</li>
+        <li>스토어</li>
+        <li>뉴스</li>
+    </ul>
+
+    <ol>
+        <li><a href="https://mail.naver.com" target="_blank"></a>메일</li>
+        <li>카페</li>
+        <li>블로그</li>
+        <li>스토어</li>
+        <li>뉴스</li>
+    </ol>
+    <h3>테이블</h3>
+    <table border="1">
+        <tr>
+            <th>1번</th>
+            <th>2번</th>
+            <th>3번</th>
+            <td>4번</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+            <td rowspan="2">400</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+            <!--<td rowspan="2">400</td> -->
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td colspan="2">300</td>
+        </tr>
+    </table>
+    <h3>이미지</h3>
+    <image src="../image/wpf0025.png" width="500"></image>
+</body>
+</html>
