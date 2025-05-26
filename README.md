@@ -337,6 +337,12 @@ https://inpa.tistory.com/category/Style%20Sheet/Bootstrap5?page=2
 ### 프론트앤드 활용
 - HTML + CSS3 + JS + BootStrap 응용예제
     - Bootstrap Image Gallery
+ 
+      
+
+https://github.com/user-attachments/assets/e4bb0cce-5ed2-4291-aa2e-0e897f86de54
+
+
 
 ## 4일차
 
