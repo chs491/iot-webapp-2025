@@ -1288,8 +1288,10 @@
 #### MyPortfolio 게시판 작업
 - MyPortfolio 게시판 화면에서 글쓰기 작업을 실시
 - 자유게시판의 `Create New`를 클릭하여 글쓰기 화면으로 이동
+- MySQL Workbench에서 Email, Writer, Title, Contents, PostDate, ReadCount 순으로 테이블 생성 후 DB연동 실시
 - Email, Writer, Title, Contents, PostDate, ReadCount 순으로 기입
 - `Create`버튼을 클릭하면 자유게시판에 글을 기재하는 기능 추가  
+- 글쓰기 작업을 완료하면 게시판 목록에 기재한 게시글이 화면으로 출력
 
     <img src="./image/게시판 작업 글쓰기 화면.png" width="400">
 
